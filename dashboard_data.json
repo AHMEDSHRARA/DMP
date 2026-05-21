@@ -1,0 +1,431 @@
+{
+  "project": {
+    "name": "Detailed Master Plan – Rua Al Haram Al Makki",
+    "reference": "RUA-2026-130",
+    "client": "Rua Al Haram Al Makki Company",
+    "consultant": "AS+P International Design Company & Buro Happold Saudi Engineering Consultancy LLC",
+    "location": "Makkah, Kingdom of Saudi Arabia",
+    "contractValue_SAR": 229998668.90,
+    "basePrice_SAR": 215498668.90,
+    "provisionalAmounts_SAR": 14500000,
+    "programmeDurationMonths": 21,
+    "commencementDate": "2026-04-01",
+    "completionDate": "2027-12-31",
+    "reportingPeriod": "May 2026",
+    "status": "Active"
+  },
+
+  "stages": [
+    {
+      "id": "baseline",
+      "name": "DMP Baseline Studies",
+      "label": "Baseline",
+      "startMonth": 1,
+      "endMonth": 4,
+      "startDate": "2026-04-01",
+      "endDate": "2026-07-31",
+      "budget_SAR": 43400000,
+      "color": "#3498db",
+      "deliverableCount": 3,
+      "milestoneCount": 1
+    },
+    {
+      "id": "stage2a",
+      "name": "Main Plot Masterplan",
+      "label": "Stage 2A",
+      "startMonth": 3,
+      "endMonth": 13,
+      "startDate": "2026-06-01",
+      "endDate": "2027-04-30",
+      "budget_SAR": 120400000,
+      "color": "#00d4c8",
+      "deliverableCount": 5,
+      "milestoneCount": 2
+    },
+    {
+      "id": "stage2b",
+      "name": "Four Additional Plots",
+      "label": "Stage 2B",
+      "startMonth": 12,
+      "endMonth": 21,
+      "startDate": "2027-03-01",
+      "endDate": "2027-12-31",
+      "budget_SAR": 51600000,
+      "color": "#9b59b6",
+      "deliverableCount": 4,
+      "milestoneCount": 2
+    }
+  ],
+
+  "milestones": [
+    {
+      "id": "M1",
+      "name": "Baseline DMP Approval",
+      "stage": "baseline",
+      "dueDate": "2026-07-31",
+      "month": 4,
+      "type": "milestone",
+      "approvalBody": "ExCom / Board of Directors",
+      "color": "#3498db"
+    },
+    {
+      "id": "M2",
+      "name": "Stage 2A – Draft Masterplan",
+      "stage": "stage2a",
+      "dueDate": "2026-11-30",
+      "month": 8,
+      "type": "milestone",
+      "approvalBody": "Client Close-Out Workshop",
+      "color": "#00d4c8"
+    },
+    {
+      "id": "M3",
+      "name": "Stage 2A – DMP Approval",
+      "stage": "stage2a",
+      "dueDate": "2027-04-30",
+      "month": 13,
+      "type": "milestone",
+      "approvalBody": "ExCom / Board of Directors",
+      "color": "#00d4c8"
+    },
+    {
+      "id": "M4",
+      "name": "Stage 2B – Draft Masterplan",
+      "stage": "stage2b",
+      "dueDate": "2027-08-31",
+      "month": 17,
+      "type": "milestone",
+      "approvalBody": "Client Close-Out Workshop",
+      "color": "#9b59b6"
+    },
+    {
+      "id": "M5",
+      "name": "Stage 2B – DMP Approval",
+      "stage": "stage2b",
+      "dueDate": "2027-12-31",
+      "month": 21,
+      "type": "milestone",
+      "approvalBody": "ExCom / Board of Directors",
+      "color": "#9b59b6"
+    }
+  ],
+
+  "deliverables": [
+    {
+      "id": "D1",
+      "name": "Baseline DMP – Additional Studies",
+      "stage": "baseline",
+      "dueDate": "2026-04-30",
+      "month": 1,
+      "type": "deliverable",
+      "paymentSplit": { "onSubmission": 0.70, "onApproval": 0.30 }
+    },
+    {
+      "id": "D2",
+      "name": "Baseline DMP – Planning Update",
+      "stage": "baseline",
+      "dueDate": "2026-05-31",
+      "month": 2,
+      "type": "deliverable",
+      "paymentSplit": { "onSubmission": 0.70, "onApproval": 0.30 }
+    },
+    {
+      "id": "D3",
+      "name": "Baseline DMP – ExCom & Board Material",
+      "stage": "baseline",
+      "dueDate": "2026-06-30",
+      "month": 3,
+      "type": "deliverable",
+      "paymentSplit": { "onSubmission": 0.70, "onApproval": 0.30 }
+    },
+    {
+      "id": "D4",
+      "name": "Stage 2A – Main Plot Masterplan Update Sub.1",
+      "stage": "stage2a",
+      "dueDate": "2026-07-31",
+      "month": 4,
+      "type": "deliverable",
+      "paymentSplit": { "onSubmission": 0.70, "onApproval": 0.30 }
+    },
+    {
+      "id": "D5",
+      "name": "Stage 2A – Main Plot Masterplan Update Sub.2",
+      "stage": "stage2a",
+      "dueDate": "2026-09-30",
+      "month": 6,
+      "type": "deliverable",
+      "paymentSplit": { "onSubmission": 0.70, "onApproval": 0.30 }
+    },
+    {
+      "id": "D6",
+      "name": "Stage 2A – Infrastructure & Public Realm Concept (Ph.1A,1B,4)",
+      "stage": "stage2a",
+      "dueDate": "2026-11-30",
+      "month": 8,
+      "type": "deliverable",
+      "paymentSplit": { "onSubmission": 0.70, "onApproval": 0.30 }
+    },
+    {
+      "id": "D7",
+      "name": "Stage 2A – Main Plot Final Masterplan",
+      "stage": "stage2a",
+      "dueDate": "2027-01-31",
+      "month": 10,
+      "type": "deliverable",
+      "paymentSplit": { "onSubmission": 0.70, "onApproval": 0.30 }
+    },
+    {
+      "id": "D8",
+      "name": "Stage 2A – Final Masterplan Submission (DMP, DCRs, Infra & PR)",
+      "stage": "stage2a",
+      "dueDate": "2027-03-31",
+      "month": 12,
+      "type": "milestone",
+      "paymentSplit": { "onSubmission": 0.60, "onInitialApproval": 0.20, "onBoardApproval": 0.20 }
+    },
+    {
+      "id": "D9",
+      "name": "Stage 2B – 4 Plots Masterplan Update Sub.1",
+      "stage": "stage2b",
+      "dueDate": "2027-04-30",
+      "month": 13,
+      "type": "deliverable",
+      "paymentSplit": { "onSubmission": 0.70, "onApproval": 0.30 }
+    },
+    {
+      "id": "D10",
+      "name": "Stage 2B – 4 Plots Masterplan Update Sub.2",
+      "stage": "stage2b",
+      "dueDate": "2027-06-30",
+      "month": 15,
+      "type": "deliverable",
+      "paymentSplit": { "onSubmission": 0.70, "onApproval": 0.30 }
+    },
+    {
+      "id": "D11",
+      "name": "Stage 2B – 4 Plots Final Masterplan",
+      "stage": "stage2b",
+      "dueDate": "2027-10-15",
+      "month": 19,
+      "type": "deliverable",
+      "paymentSplit": { "onSubmission": 0.70, "onApproval": 0.30 }
+    },
+    {
+      "id": "D12",
+      "name": "Stage 2B – Final Masterplan Submission (DMP, DCRs, Infra & PR)",
+      "stage": "stage2b",
+      "dueDate": "2027-10-31",
+      "month": 19,
+      "type": "milestone",
+      "paymentSplit": { "onSubmission": 0.60, "onInitialApproval": 0.20, "onBoardApproval": 0.20 }
+    }
+  ],
+
+  "workstreams": [
+    {
+      "id": "pm",
+      "name": "Project Management",
+      "group": "management",
+      "lead": "Faris Samin / Ian Pearce",
+      "budget": { "baseline_SAR": 6020000, "stage2a_SAR": 16110000, "stage2b_SAR": 7860000, "total_SAR": 29990000 },
+      "color": "#00d4c8"
+    },
+    {
+      "id": "design_lead",
+      "name": "Project / Design Lead (AS+P)",
+      "group": "management",
+      "lead": "Schares / Bienhaus / Häpp / Knüttel",
+      "budget": { "baseline_SAR": 1080000, "stage2a_SAR": 2100000, "stage2b_SAR": 1760000, "total_SAR": 4940000 },
+      "color": "#f5a623"
+    },
+    {
+      "id": "cost_mgmt",
+      "name": "Cost Management (RLB)",
+      "group": "management",
+      "lead": "Eddie Visscher / Adam Williams",
+      "budget": { "baseline_SAR": 2310000, "stage2a_SAR": 6010000, "stage2b_SAR": 3510000, "total_SAR": 11830000 },
+      "color": "#e67e22"
+    },
+    {
+      "id": "urban_design",
+      "name": "Urban Design & Masterplanning (AS+P)",
+      "group": "engineering",
+      "lead": "Nils Müller / Ahmed Alshafie",
+      "budget": { "baseline_SAR": 8320000, "stage2a_SAR": 14250000, "stage2b_SAR": 6010000, "total_SAR": 28580000 },
+      "color": "#3498db"
+    },
+    {
+      "id": "landscape",
+      "name": "Landscape Architecture (AS+P)",
+      "group": "engineering",
+      "lead": "Rainer Mutschler",
+      "budget": { "baseline_SAR": 4740000, "stage2a_SAR": 8700000, "stage2b_SAR": 3860000, "total_SAR": 17300000 },
+      "color": "#27ae60"
+    },
+    {
+      "id": "civil_infra",
+      "name": "Civil & Infrastructure Engineering (BH + DAR)",
+      "group": "engineering",
+      "lead": "Chris Whitelaw",
+      "budget": { "baseline_SAR": 2060000, "stage2a_SAR": 22010000, "stage2b_SAR": 10010000, "total_SAR": 34080000 },
+      "color": "#e74c3c"
+    },
+    {
+      "id": "mobility",
+      "name": "Mobility & Transport (AS+P + BH)",
+      "group": "engineering",
+      "lead": "Maik Schütze",
+      "budget": { "baseline_SAR": 4410000, "stage2a_SAR": 7260000, "stage2b_SAR": 2570000, "total_SAR": 14240000 },
+      "color": "#9b59b6"
+    },
+    {
+      "id": "metro",
+      "name": "Metro / Tunnel (BH)",
+      "group": "engineering",
+      "lead": "Buro Happold",
+      "budget": { "baseline_SAR": 2840000, "stage2a_SAR": 13350000, "stage2b_SAR": 3740000, "total_SAR": 19930000 },
+      "color": "#1abc9c"
+    },
+    {
+      "id": "sustainability",
+      "name": "Sustainability (BH)",
+      "group": "engineering",
+      "lead": "Buro Happold",
+      "budget": { "baseline_SAR": 1210000, "stage2a_SAR": 4880000, "stage2b_SAR": 1180000, "total_SAR": 7270000 },
+      "color": "#2ecc71"
+    },
+    {
+      "id": "crowd",
+      "name": "Crowd Management (BH)",
+      "group": "engineering",
+      "lead": "Buro Happold",
+      "budget": { "baseline_SAR": 1900000, "stage2a_SAR": 890000, "stage2b_SAR": 190000, "total_SAR": 2980000 },
+      "color": "#e67e22"
+    },
+    {
+      "id": "ground_eng",
+      "name": "Ground Engineering (BH)",
+      "group": "engineering",
+      "lead": "Buro Happold",
+      "budget": { "baseline_SAR": 690000, "stage2a_SAR": 3700000, "stage2b_SAR": 1080000, "total_SAR": 5470000 },
+      "color": "#c0392b"
+    },
+    {
+      "id": "security",
+      "name": "Security & Fire Life Safety (BH)",
+      "group": "engineering",
+      "lead": "Buro Happold",
+      "budget": { "baseline_SAR": 410000, "stage2a_SAR": 2430000, "stage2b_SAR": 1260000, "total_SAR": 4100000 },
+      "color": "#e74c3c"
+    },
+    {
+      "id": "smart_city",
+      "name": "Smart City & Digital Infrastructure (BH)",
+      "group": "engineering",
+      "lead": "Buro Happold",
+      "budget": { "baseline_SAR": 180000, "stage2a_SAR": 2440000, "stage2b_SAR": 1520000, "total_SAR": 4140000 },
+      "color": "#3498db"
+    }
+  ],
+
+  "provisionalAmounts": [
+    { "id": "PA1", "description": "Project Insurances", "cap_SAR": 5000000 },
+    { "id": "PA2", "description": "Withholding Tax (International Sub-Consultants)", "cap_SAR": 6500000 },
+    { "id": "PA3", "description": "Travel Expenses (International)", "cap_SAR": 3000000 }
+  ],
+
+  "paymentStructure": {
+    "deliverable": {
+      "onSubmission": 0.70,
+      "onClientApproval": 0.30,
+      "note": "Approval via formal close-out workshop"
+    },
+    "milestone": {
+      "onSubmission": 0.60,
+      "onInitialClientApproval": 0.20,
+      "onExComBoardApproval": 0.20,
+      "note": "Final approval by Executive Committee / Board of Directors"
+    },
+    "retention": {
+      "stage2a_SAR": 6020000,
+      "stage2b_SAR": 2580000,
+      "releaseCondition": "Formal approval of each stage by Client"
+    },
+    "clientReviewPeriodDays": 14,
+    "invoicingCurrency": "SAR",
+    "vatApplicable": true
+  },
+
+  "projectControlsSchedule8": {
+    "pcpSubmissionBusinessDays": 21,
+    "scheduleFormat": "Primavera P6 (XER)",
+    "monthlyCutOffDay": 25,
+    "reportDueDay": "Last Business Day of Month",
+    "weeklyReportTool": "Power BI integrated with Primavera P6",
+    "executiveKPIs": [
+      { "id": "SPI", "name": "Schedule Performance Index" },
+      { "id": "CPI", "name": "Cost Performance Index" },
+      { "id": "QPI", "name": "Quality Performance Index" },
+      { "id": "CMP", "name": "Change Management Performance" },
+      { "id": "PPi", "name": "Payment Performance Index" }
+    ],
+    "requiredRegisters": [
+      "Design & Tender Process Tracker",
+      "Detailed Design & Engineering EVM Tracker",
+      "Detailed Design Deliverables Register (per package/discipline/zone)",
+      "Authority Approval Tracker",
+      "Change Register & Tracker",
+      "Risk Register & Tracker",
+      "Stakeholders Register & Tracker",
+      "Delayed Activities Tracker",
+      "Schedule Change Register",
+      "Program Change Log"
+    ],
+    "pcpContents": [
+      { "item": "Schedule Narrative & Assumptions", "layer": "Baseline" },
+      { "item": "Project Calendar", "layer": "Baseline" },
+      { "item": "Work Breakdown Structure (WBS)", "layer": "Baseline" },
+      { "item": "Cost Breakdown Structure", "layer": "Baseline" },
+      { "item": "Performance Measurement System (EVM)", "layer": "Control" },
+      { "item": "Design Flow Charts & Gateway Approvals", "layer": "Control" },
+      { "item": "Design Management Plan", "layer": "Control" },
+      { "item": "S-Curves & Progress Trackers", "layer": "Control" },
+      { "item": "Risk Register & Tracker", "layer": "Monitor" },
+      { "item": "Change Register & Tracker", "layer": "Monitor" },
+      { "item": "Stakeholder Register & Tracker", "layer": "Monitor" },
+      { "item": "Authority Approval Tracker", "layer": "Monitor" }
+    ]
+  },
+
+  "keyPersonnel": [
+    { "name": "Faris Samin", "role": "Project Director", "company": "AS+P", "workstream": "pm" },
+    { "name": "Ian Pearce", "role": "Senior Project Manager", "company": "AS+P", "workstream": "pm" },
+    { "name": "Alaa Al-Jazara", "role": "PM / Stakeholder Manager", "company": "AS+P", "workstream": "pm" },
+    { "name": "Joachim Schares", "role": "MD / Partner", "company": "AS+P", "workstream": "design_lead" },
+    { "name": "Axel Bienhaus", "role": "MD / Partner", "company": "AS+P", "workstream": "design_lead" },
+    { "name": "Nils Müller", "role": "Design Director", "company": "AS+P", "workstream": "urban_design" },
+    { "name": "Ahmed Alshafie", "role": "Design Director", "company": "AS+P", "workstream": "urban_design" },
+    { "name": "Rainer Mutschler", "role": "Landscape Director", "company": "AS+P", "workstream": "landscape" },
+    { "name": "Maik Schütze", "role": "Mobility Director", "company": "AS+P", "workstream": "mobility" },
+    { "name": "Ante Baric", "role": "Partner", "company": "Buro Happold", "workstream": "civil_infra" },
+    { "name": "Chris Whitelaw", "role": "Design Director – Civil", "company": "Buro Happold", "workstream": "civil_infra" },
+    { "name": "Cathal Hayes", "role": "Partner", "company": "Buro Happold", "workstream": "metro" },
+    { "name": "Eddie Visscher", "role": "Cost Director", "company": "RLB", "workstream": "cost_mgmt" },
+    { "name": "Adam Williams", "role": "Cost Manager", "company": "RLB", "workstream": "cost_mgmt" },
+    { "name": "Simon Berry", "role": "Lighting Director", "company": "Nulty+", "workstream": "pm" },
+    { "name": "Ben Brouard", "role": "Director", "company": "Plan A Consultants", "workstream": "pm" }
+  ],
+
+  "sCurvePlanned": {
+    "months": ["M1","M2","M3","M4","M5","M6","M7","M8","M9","M10","M11","M12","M13","M14","M15","M16","M17","M18","M19","M20","M21"],
+    "progress_pct": [5, 12, 18, 26, 32, 40, 46, 55, 62, 68, 72, 78, 82, 85, 88, 90, 93, 95, 97, 99, 100]
+  },
+
+  "metadata": {
+    "dashboardVersion": "1.0.0",
+    "createdDate": "2026-05-21",
+    "dataSource": "Contract RUA-2026-130 – Schedules 1, 6 & 8",
+    "classification": "RESTRICTED – CLIENT",
+    "lastUpdated": "2026-05-21"
+  }
+}
